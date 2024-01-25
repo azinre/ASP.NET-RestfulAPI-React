@@ -1,0 +1,39 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+h1{
+    font: Georgia, serif;
+    border-bottom: 3px solid #cc9900;
+    color: #996600;
+}
+fieldset{
+    border: groove;
+    margin: 10px;
+    padding: 10px;
+}
+legend {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid green;
+    width: 60%;
+    min-width: 300px;
+    color: green;
+    font-size: 150%;
+    text-align: left;
+}
